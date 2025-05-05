@@ -1,0 +1,12 @@
+/* Ejemplo de estilos adicionales */
+body {
+    background-color: #f7f7f7;
+}
+  
+table {
+    background-color: #fff;
+}
+
+.title-books {
+    text-align: center;
+}

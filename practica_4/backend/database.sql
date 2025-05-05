@@ -1,0 +1,2 @@
+CREATE TABLE autor(id_autor INT AUTO_INCREMENT PRIMARY KEY,nombre VARCHAR(100) NOT NULL, nacionalidad VARCHAR(100),fecha_nacimiento DATE, biografia TEXT);
+CREATE TABLE libro(id_libro INT AUTO_INCREMENT PRIMARY KEY,titulo VARCHAR(150) NOT NULL,anio_publicacion INT,genero VARCHAR(100),resumen TEXT,id_autor INT,FOREIGN KEY(id_autor) REFERENCES autor(id_autor));

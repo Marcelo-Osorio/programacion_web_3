@@ -1,0 +1,17 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.table-responsive {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  margin-right: 5px;
+}
+
+.modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
